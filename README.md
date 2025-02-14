@@ -187,8 +187,8 @@ function validateForm() {
         document.getElementById('passwordError').textContent = 'Password is required';
         document.getElementById('passwordError').style.display = 'block';
         isValid = false;
-    } else if (password.length < 6) {
-        document.getElementById('passwordError').textContent = 'Password must be at least 6 characters';
+    } else if (password.length < 8) {
+        document.getElementById('passwordError').textContent = 'Password must be at least 8 characters';
         document.getElementById('passwordError').style.display = 'block';
         isValid = false;
     }
