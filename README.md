@@ -15,7 +15,7 @@ This project is a simple registration form with client-side validation implement
 - **Validation Rules**:
   - Username: Required field.
   - Email: Required and must be in a valid email format.
-  - Password: Required and must be at least 6 characters long.
+  - Password: Required and must be at least 8 characters long.
   - Confirm Password: Required and must match the password field.
 
 - **Error Handling**:
